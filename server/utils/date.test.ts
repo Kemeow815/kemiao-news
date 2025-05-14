@@ -163,7 +163,7 @@ describe("parseRelativeDate", () => {
 })
 
 describe("transform Beijing time to UTC in different timezone", () => {
-  const a = "2024/10/3 12:26:16"
+  const a = "2025/05/13 12:26:16"
   const b = 1727929576000
   it("in UTC", () => {
     Object.assign(process.env, { TZ: "UTC" })
